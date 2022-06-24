@@ -1,12 +1,26 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit).
+This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) +[`Rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit) + [TailwindCSS](https://tailwindcss.com/).
 
 ## Getting Started
 
-First, run the development server:
+Inside of the `utils` folder, there is a file `connectContract` which has the logic for you to allow your frontend to communicate with your smart contract, and execute those functions from the front end. 
 
+In your Nextjs pages that trigger your smart contract calls, import this at the top:
+`import connectContract from "../utils/connectContract";`
+Then when you want to call those functions:
+`const myContract = connectContract();`
+`const txn = await rsvpContract.youtFunction()`
+
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Run the server: 
 ```bash
 npm run dev
 ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
