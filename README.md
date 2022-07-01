@@ -1,4 +1,4 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) +[`Rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit) + [TailwindCSS](https://tailwindcss.com/).
+This is a Typescript project with the following dependencies and logic already implemented: [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) +[`Rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit) + [TailwindCSS](https://tailwindcss.com/).
 
 ## Getting Started
 
